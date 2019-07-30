@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivityAndIntentsDemo</string>
+    <string name="enter_some_input">Enter some input</string>
+</resources>
