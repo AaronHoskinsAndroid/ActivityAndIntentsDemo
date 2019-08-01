@@ -18,6 +18,26 @@
         android:id="@+id/btnGotoResultActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Start Results Activity"
         android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnStartImplicitActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start implicit intent"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnStartActivityForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start activity for result"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/tvResultDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

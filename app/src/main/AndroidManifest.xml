@@ -9,8 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResultActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ForResultActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ImplicitActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="start_implicit_intent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

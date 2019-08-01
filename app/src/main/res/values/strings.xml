@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ActivityAndIntentsDemo</string>
     <string name="enter_some_input">Enter some input</string>
+    <string name="implicit_intent_activity">Implicit Intent Activity</string>
 </resources>
